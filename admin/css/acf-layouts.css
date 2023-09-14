@@ -8,7 +8,7 @@
     "headline image"
     "subheadline image"; 
 }
-#acf-group_64ea462442133 .acf-fields > div[data-name="layout"] { grid-area: layout-type; }
+#acf-group_64ea462442133 .acf-fields > div[data-name="layout"] { grid-area: header-type; }
 #acf-group_64ea462442133 .acf-fields > div[data-name="headline"] { grid-area: headline; }
 #acf-group_64ea462442133 .acf-fields > div[data-name="subheadline"] { grid-area: subheadline; }
 #acf-group_64ea462442133 .acf-fields > div[data-name="image"] { grid-area: image; }
