@@ -1,7 +1,6 @@
 <?php
 /* 
   Template Name: Disable Gutenberg
-  Type: page
 */
 
 get_header();
