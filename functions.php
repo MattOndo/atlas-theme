@@ -149,12 +149,11 @@ function matt_ondo_atlas_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'matt_ondo_atlas_theme_scripts' );
 
-add_action('acf/input/admin_enqueue_scripts', 'my_acf_admin_enqueue_scripts');
-
 function matt_ondo_atlas_admin_scripts() {
 	wp_enqueue_style( 'my-acf-input-css', get_stylesheet_directory_uri() . '/admin/css/acf-layouts.css', false, false );
 	// wp_enqueue_script( 'my-acf-input-js', get_stylesheet_directory_uri() . '/js/my-acf-input.js', false, '1.0.0' );
 }
+add_action('acf/input/admin_enqueue_scripts', 'matt_ondo_atlas_admin_scripts');
 
 /**
  * Implement the Custom Header feature.
