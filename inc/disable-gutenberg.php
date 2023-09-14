@@ -15,7 +15,8 @@ function ea_disable_editor( $id = false ) {
 	);
 
 	$excluded_ids = array(
-		// get_option( 'page_on_front' )
+		get_option( 'page_on_front' ), // Front Page
+		get_option( 'page_for_posts' ) // Posts Page
 	);
 
 	if( empty( $id ) )
