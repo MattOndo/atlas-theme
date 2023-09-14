@@ -179,3 +179,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Disable Gutenberg Editor
  */
 require get_template_directory() . '/inc/disable-gutenberg.php';
+
+/**
+ * Remove some metaboxes
+ */
+require get_template_directory() . '/inc/remove-metaboxes.php';
